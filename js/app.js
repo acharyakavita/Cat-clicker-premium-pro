@@ -195,7 +195,7 @@ let admin = {
                 if (this.currentCat.name === obj.name) {
                     obj.name = document.querySelector('.name').value;
                     obj.url = document.querySelector('.url').value;
-                    obj.click = document.querySelector('.click').value;
+                    obj.clickCount = document.querySelector('.click').value;
                     catListView.update(obj);
                     Controller.currentCatView(obj);
                     document.querySelector('form').classList.add('view');
