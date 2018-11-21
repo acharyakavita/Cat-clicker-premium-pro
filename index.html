@@ -1,0 +1,48 @@
+<!--HTML file for Cat Clicker*/-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Clicker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="heading">
+        <h1>Cat Clicker</h1>
+    </header>
+    <main class="container">
+        <section class="userInput">
+            <div class="list">
+                <select class="options">
+                    <option value="default">Select a Cat</option>
+                    <option value="Tommy">Tommy</option>
+                    <option value="Shaila">Shaila</option>
+                    <option value="Jerry">Jerry</option>
+                    <option value="Truffles">Truffles</option>
+                    <option value="Laila">Laila</option>
+                </select>
+            </div>
+            <div class="adminMode">
+                <button type="button" class="admin">Admin</button>
+                <form class="form view">
+                        <label>Name : </label>
+                        <input class="textbox name" type="text" name="name" value=" "><br>
+                        <label>imgURL: </label>
+                        <input class="textbox url" type="text" name="url" value=" "><br>
+                        <label>Click#: </label>
+                        <input class="textbox click" type="text click" name="click" value=" "><br>
+                    <button type="button" class="cancel">Cancel</button>
+                    <button type="button" class="save">Save</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

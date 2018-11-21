@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;  
+    text-transform: uppercase;
+}
+
+.heading {
+    width:100%;
+    display: block;
+    margin: 0;
+    padding-top: 2%;
+    color:#000066;
+    text-align: center;
+    text-shadow: 2px 2px lightblue;
+}
+
+/*main*/
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.userInput {
+    display: flex;
+    width:100%;
+}
+
+.list,
+.adminMode {
+    width: 50%;
+}
+
+
+.options,
+.admin,
+.cancel,
+.save {
+    box-shadow:  3px 3px lightblue;
+    font-weight: bold;  
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 2px solid #aa7ecd;
+    text-transform: uppercase;
+    text-align: center;
+    background: rgb(150, 248, 235);
+    font-size: 1.1em;
+    border-radius: 10px;
+    outline:none;
+}
+
+.view {
+    display: none;
+}
+
+.form {
+    
+    font-size: 1.1em;
+    font-weight: bold;  
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.textbox {
+    height:20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.cat {
+    width: 500px;
+    height: 600px; 
+}
